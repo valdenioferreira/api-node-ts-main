@@ -16,7 +16,7 @@ class UpdateUserController{
         }
 
         if(email.length === 0){
-            return response.status(400).json({mensagem: 'Informe um email'})
+            return response.status(400).json({mensagem: 'Informe um email valido'})
         }
 
         if(cpf.length === 0){
